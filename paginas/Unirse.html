@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+</head>
+<body class="cuerpo">
+    <header class="encabezado">
+        <div class="encabezado_titulo">
+            <img class="logo_img" src="../Media/imagenes/Logo.jpg" alt="Logo">
+            <h1>Daez Informatica</h1>
+        </div>
+        <nav class="encabezado_nav">
+            <ul class="nav_bar">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./Empresa.html">Empresa</a></li>
+                <li><a href="./Servicios.html">Servicios</a></li>
+                <li><a href="./Unirse.html">Unirse</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="presentacion">Unete a nuestro staff</h2>
+        <Form class="unete_a_nosotros" action="#">
+            <div>
+                <label for="Nombre">Nombres:</label>
+                <input class="form_input" type="text" id="Nombre" name="Nombre">
+            </div>
+            <div>
+                <label for="Apellido">Apellidos:</label>
+                <input class="form_input" type="text" id="Apellido" name="Apellido">
+            </div>
+            <div>
+                <label for="Nacimiento">Fecha de nac.:</label>
+                <input class="form_input" type="date" name="Nacimiento" id="Nacimiento">
+            </div>
+            <div>
+                <label for="Email">E-mail:</label>
+                <input class="form_input" type="email" id="Email" name="Email"> 
+            </div>
+            <div>
+                <label for="Telefono">Telefono:</label>
+                <input class="form_input" type="tel" id="Telefono" name="Telefono"> 
+            </div>
+            <div>
+                <span>Sexo:</span><br>
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="genero" id="femenino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="masculino">
+            </div>
+            <div>
+                <span>Conocimientos en:</span><br>
+                <label for="desarrollo">Desarrollo Web</label>
+                <input type="checkbox" name="Conocimientos" id="desarrollo">
+                
+                <label for="Windows">Windows</label>
+                <input type="checkbox" name="Conocimientos" id="Windows">
+                
+                <label for="Linux">Linux</label>
+                <input type="checkbox" name="Conocimientos" id="Linux">
+    
+                <label for="Rmado">Armado de pc</label>
+                <input type="checkbox" name="Conocimientos" id="Armado">
+    
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" name="Conocimientos" id="javascript">
+    
+                <label for="react">ReactJS</label>
+                <input type="checkbox" name="Conocimientos" id="react">
+            </div>
+            <div>
+                <label for="Comentarios">Comentarios:</label><br>
+                <textarea class="form_textarea" placeholder="Ingrese su comentario" name="comentario" id="comentario"></textarea>
+            </div class="centrar_boton">
+           <button class="btn">enviar solicitud</button>
+        </Form>
+    </main>
+
+    <footer class="pie_pagina">
+        <strong>Nuestras redes</strong>
+        <ul class="pie_pag_redes">
+            <li><a target="_blank" href="https://es-la.facebook.com"><span class="jam jam-facebook-square"></span></a></li>
+            <li><a target="_blank" href="https://www.instagram.com"><span class="jam jam-instagram"></span> </a></li>
+            <li><a target="_blank" href="https://twitter.com"><span class=" jam jam-twitter-square"></span> </a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
