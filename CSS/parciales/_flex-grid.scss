@@ -1,0 +1,46 @@
+.productos_flex {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+.productos_flex_hijos {    
+    margin: 1rem;
+    max-width: 20%;
+    max-height: 20%;
+    text-align: center;
+    border:3px solid slategrey;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.productos_flex_hijos:hover {
+    box-shadow: 10px 10px 10px 0 dimgrey;
+}
+
+.mapa__style {
+    max-width: 60%;
+    justify-self: flex-end;
+    grid-area: mapa;
+    
+}
+.contacto {
+    display: grid;
+    grid-template-areas: "datos datos"
+                         "lista mapa";
+}
+.lista {
+    margin-left: 10px;
+    padding: 20px;
+    list-style: none;
+    grid-area: lista;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.datos {
+     grid-area: datos;
+     text-align: center;
+}

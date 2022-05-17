@@ -1,0 +1,41 @@
+@media screen and (max-width:769px) {
+    
+    .encabezado_nav {
+        display: none;
+    }
+    .presentacion_imagen {
+        width: 50vw;
+    }
+    .newsletter {
+        display: none;
+    }
+    .encabezado_titulo {
+        font-size: 14px;
+    }
+    .videoplay {
+        width: auto;
+        height: auto;
+    }
+    .productos_flex {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .productos_flex_hijos {
+        text-align: justify;
+        max-width: none;
+        max-height: none;
+        justify-content: space-between;
+
+    }
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }    
+    .nav_bar {
+        display: block;
+    
+    }
+}

@@ -1,0 +1,61 @@
+.encabezado {
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 10;
+    transition: all 4seg;
+    background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 5s ease infinite;
+	        animation: gradient 5s ease infinite;
+	}
+.encabezado:hover {
+    -webkit-animation: gradient 5s ease infinite;
+   animation: gradient 5s ease infinite;
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	
+}
+.encabezado_titulo {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo_img {
+    border-radius: 15px;
+    width: 20%;
+}
+.encabezado_nav {
+    position: absolute;
+    right: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+.nav_bar {
+    display: flex;
+    top: 15px;
+    right: 20px;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav ul li {
+       padding: 5px;
+}
