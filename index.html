@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
     <link rel="stylesheet" href="./CSS/Style.css">
 </head>
-<body class="cuerpo">
-    <header class="encabezado">
-        <nav class="navbar navbar-light navbar-expand-md bg-light fixed-top">
+<body class="bg-light bg-gradient">
+    <header>
+        <nav class="mb-5 navbar navbar-light navbar-expand-md bg-light fixed-top">
             <a class="navbar-brand" href="#">
                 <img src="Media/imagenes/Logo.jpg" alt="" width="80" height="35">
             </a>
@@ -25,41 +25,41 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
                 <div class="offcanvas-body">
                     <ul class="nav_bar">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="./paginas/Empresa.html">Empresa</a></li>
-                        <li><a href="./paginas/Servicios.html">Servicios</a></li>
-                        <li><a href="./paginas/Unirse.html">Unirse</a></li>
-                        <li><a href="./paginas/Contacto.html">Contacto</a></li>                 
+                        <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="./paginas/Empresa.html">Empresa</a></li>
+                        <li><a class="text-decoration-none" href="./paginas/Servicios.html">Servicios</a></li>
+                        <li><a class="text-decoration-none" href="./paginas/Unirse.html">Unirse</a></li>
+                        <li><a class="text-decoration-none" href="./paginas/Contacto.html">Contacto</a></li>                 
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="presentacion">
-            <h2 class="presentacion_texto titulo">Bienvenidos</h2>
-            <h3 class="presentacion_texto subtitulo">Daez Soluciones Informaticas</h3>
-            <p class="presentacion_texto parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
+        <section class="mt-5 text-center">
+            <h2 class="mt-5 pt-5 text-center fw-bold">Bienvenidos</h2>
+            <h3 class="text-center ">Daez Soluciones Informaticas</h3>
+            <p class="text-center mx-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
              nesciunt eaque ut earum porro repellat, facere quos laboriosam sed
              ex dolore ea libero fugiat hic. Cumque rerum repellendus 
              reprehenderit debitis.</p>
-             <a href="./paginas/Empresa.html"> <img class="presentacion_imagen" src="./Media/imagenes/video.jpg" alt="video"></a>
+             <a href="./paginas/Empresa.html"> <img class=" mb-5 rounded mx-auto d-block" src="./Media/imagenes/video.jpg" alt="video"></a>
         </section>
         <section>
             <form action="#" class="newsletter">
                 <label for="newsletter">Suscribete a nuestros newsletter</label>
                 <br>
-                <input type="email" name="newsletter">
-                <button class="btn_1" >submit</button>
+                <input type="email" name="newsletter" placeholder="coloca tu e-mail">
+                <button class="mt-4 btn btn-secondary btn-sm" >submit</button>
             </form>
         </section>
     </main>
-    <footer class="pie_pagina">
+    <footer class="text-center ">
         <strong>Nuestras redes</strong>
-        <ul class="pie_pag_redes">
-            <li><a target="_blank" href="https://es-la.facebook.com"><span class="jam jam-facebook-square"></span></a></li>
-            <li><a target="_blank" href="https://www.instagram.com"><span class="jam jam-instagram"></span> </a></li>
-            <li><a target="_blank" href="https://twitter.com"><span class=" jam jam-twitter-square"></span> </a></li>
+        <ul class="text-center d-flex fs-1 justify-content-center list-unstyled">
+            <li><a class="text-decoration-none" target="_blank" href="https://es-la.facebook.com"><span class="jam jam-facebook-square"></span></a></li>
+            <li><a class="text-decoration-none" target="_blank" href="https://www.instagram.com"><span class="jam jam-instagram"></span> </a></li>
+            <li><a class="text-decoration-none" target="_blank" href="https://twitter.com"><span class=" jam jam-twitter-square"></span> </a></li>
         </ul>
     </footer>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

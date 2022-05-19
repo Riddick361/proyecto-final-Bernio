@@ -8,10 +8,10 @@
 	background-size: 400% 400%;
 	-webkit-animation: gradient 5s ease infinite;
 	        animation: gradient 5s ease infinite;
-	}
-.encabezado:hover {
-    -webkit-animation: gradient 5s ease infinite;
-   animation: gradient 5s ease infinite;
+            &:hover {
+                -webkit-animation: gradient 5s ease infinite;
+                animation: gradient 5s ease infinite;
+            }
 }
 @-webkit-keyframes gradient {
 	0% {
